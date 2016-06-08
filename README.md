@@ -9,7 +9,7 @@ For more information see the original repository from wanglimin.
 
 Additional parameters compared to the original repository are:
 
-`
--o tmp/rgbOutputDir  [path of where to store RGB images]
--c 1                 [applyColorMap, true/false]
-`
+```
+-o tmp/rgbOutputDir     [path of where to store RGB images]
+-c 1                    [applyColorMap, true/false]
+```
