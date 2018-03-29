@@ -24,3 +24,9 @@ cannot find -lopencv_dep_cudart
 
 add the following flag to `cmake`: `-DCUDA_USE_STATIC_CUDA_RUNTIME=OFF`
 See here: https://github.com/opencv/opencv/issues/6542
+
+If the correct version of CUDA_TOOLKIT cannot be find, try setting it manually:
+
+```
+cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-8.0 ..
+```
